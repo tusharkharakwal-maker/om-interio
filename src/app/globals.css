@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Base Resets ───────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F7F3EC;
+  color: #2A2119;
+  font-family: var(--font-manrope), Inter, sans-serif;
+}
+
+/* ── Type Scale ───────────────────────────────────────────── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-fraunces), 'Playfair Display', serif;
+  font-weight: 600;
+}
+
+/* ── Selection ────────────────────────────────────────────── */
+::selection {
+  background-color: rgba(181, 101, 47, 0.2);
+  color: #2A2119;
+}
+
+/* ── Scrollbar (subtle) ───────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F3EC;
+}
+::-webkit-scrollbar-thumb {
+  background: #B08D57;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B5652F;
+}
+
+/* ── Focus States ─────────────────────────────────────────── */
+*:focus-visible {
+  outline: 2px solid #B5652F;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ── Utility Classes ──────────────────────────────────────── */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
