@@ -17,7 +17,7 @@ export function Footer() {
             <Link href="/" className="flex items-center gap-2">
               <PalmMotif size={24} color="#B08D57" opacity={0.8} />
               <span className="font-fraunces text-xl font-semibold text-ivory">
-                Seven Palm<span className="text-brass"> Interio</span>
+                Shree Om<span className="text-brass"> Design</span>
               </span>
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-ivory/60">

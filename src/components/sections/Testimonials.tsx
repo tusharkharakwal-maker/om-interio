@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useCallback, useEffect, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { Star, ChevronLeft, ChevronRight } from "lucide-react";
 import { TESTIMONIALS } from "@/lib/constants";
 import { SectionHeading } from "@/components/ui/SectionHeading";
@@ -42,42 +42,46 @@ export function Testimonials() {
 
         {/* Carousel */}
         <div className="relative mt-8">
-          <div className="overflow-hidden rounded-2xl bg-sand p-8 md:p-12">
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={current}
-                initial={{ opacity: 0, x: 40 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -40 }}
-                transition={{ duration: 0.4 }}
-                className="text-center"
-              >
-                {/* Stars */}
-                <div className="mb-6 flex items-center justify-center gap-1">
-                  {Array.from({ length: 5 }).map((_, i) => (
-                    <Star
-                      key={i}
-                      size={20}
-                      className={
-                        i < TESTIMONIALS[current].rating
-                          ? "fill-brass text-brass"
-                          : "text-brass/30"
-                      }
-                    />
-                  ))}
+          <div className="overflow-hidden rounded-2xl bg-sand">
+            <motion.div
+              className="flex"
+              style={{ width: `${TESTIMONIALS.length * 100}%` }}
+              animate={{ x: `-${current * (100 / TESTIMONIALS.length)}%` }}
+              transition={{ type: "spring", stiffness: 300, damping: 30 }}
+            >
+              {TESTIMONIALS.map((testimonial, index) => (
+                <div
+                  key={index}
+                  className="flex-shrink-0 p-8 md:p-12 text-center"
+                  style={{ width: `${100 / TESTIMONIALS.length}%` }}
+                >
+                  {/* Stars */}
+                  <div className="mb-6 flex items-center justify-center gap-1">
+                    {Array.from({ length: 5 }).map((_, i) => (
+                      <Star
+                        key={i}
+                        size={20}
+                        className={
+                          i < testimonial.rating
+                            ? "fill-brass text-brass"
+                            : "text-brass/30"
+                        }
+                      />
+                    ))}
+                  </div>
+
+                  {/* Quote */}
+                  <blockquote className="font-cormorant text-xl italic leading-relaxed text-espresso md:text-2xl">
+                    &ldquo;{testimonial.quote}&rdquo;
+                  </blockquote>
+
+                  {/* Name */}
+                  <p className="mt-6 font-manrope text-sm font-semibold uppercase tracking-wider text-terracotta">
+                    — {testimonial.name}
+                  </p>
                 </div>
-
-                {/* Quote */}
-                <blockquote className="font-cormorant text-xl italic leading-relaxed text-espresso md:text-2xl">
-                  &ldquo;{TESTIMONIALS[current].quote}&rdquo;
-                </blockquote>
-
-                {/* Name */}
-                <p className="mt-6 font-manrope text-sm font-semibold uppercase tracking-wider text-terracotta">
-                  — {TESTIMONIALS[current].name}
-                </p>
-              </motion.div>
-            </AnimatePresence>
+              ))}
+            </motion.div>
           </div>
 
           {/* Navigation arrows */}

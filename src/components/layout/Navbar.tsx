@@ -61,7 +61,7 @@ export function Navbar() {
                 scrolled ? "text-espresso" : "text-white"
               }`}
             >
-              Seven Palm<span className="text-brass"> Interio</span>
+              Shree Om<span className="text-brass"> Design</span>
             </span>
           </Link>
 

@@ -25,7 +25,7 @@ export function AboutPreview() {
               {/* TODO: replace with real company photo */}
               <Image
                 src={ABOUT_IMAGES.main}
-                alt="Seven Palm Interio workspace showcasing design materials and samples"
+                alt="Shree Om Design workspace showcasing design materials and samples"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
