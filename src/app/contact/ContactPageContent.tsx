@@ -127,7 +127,7 @@ export function ContactPageContent() {
                         </p>
                         {/* TODO: replace with real email */}
                         <p className="mt-0.5 font-medium text-espresso">
-                          hello@sevenpalm.in
+                          abc@gmail.com
                         </p>
                       </div>
                     </div>

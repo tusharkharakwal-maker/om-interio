@@ -26,16 +26,16 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: {
-    default: "SHREE OM DESIGN AND CONSTRUCTION — Interior Design in Ranchi",
-    template: "%s | SHREE OM DESIGN AND CONSTRUCTION",
+    default: "Designco interior — Interior Design in Ranchi",
+    template: "%s | Designco interior",
   },
   description:
-    "SHREE OM DESIGN AND CONSTRUCTION crafts warm, elegant interior spaces in Ranchi, Jharkhand. From bedroom and bathroom design to commercial interiors — book a free consultation today.",
+    "Designco interior crafts warm, elegant interior spaces in Ranchi, Jharkhand. From bedroom and bathroom design to commercial interiors — book a free consultation today.",
   keywords: [
     "interior design",
     "interior designer Ranchi",
     "home design Jharkhand",
-    "SHREE OM DESIGN AND CONSTRUCTION",
+    "Designco interior",
     "bedroom design",
     "bathroom design",
     "commercial interiors",
@@ -43,17 +43,17 @@ export const metadata: Metadata = {
     "Ranchi",
   ],
   openGraph: {
-    title: "SHREE OM DESIGN AND CONSTRUCTION — Interior Design in Ranchi",
+    title: "Designco interior — Interior Design in Ranchi",
     description:
       "Crafting warm, elegant interiors that transform houses into homes. Based in Ranchi, serving Jharkhand and beyond.",
     url: "https://sevenpalm.in",
-    siteName: "SHREE OM DESIGN AND CONSTRUCTION",
+    siteName: "Designco interior",
     locale: "en_IN",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "SHREE OM DESIGN AND CONSTRUCTION — Interior Design in Ranchi",
+    title: "Designco interior — Interior Design in Ranchi",
     description:
       "Crafting warm, elegant interiors that transform houses into homes.",
   },
@@ -67,17 +67,17 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  name: "SHREE OM DESIGN AND CONSTRUCTION",
+  name: "Designco interior",
   description:
     "Interior design company specialising in residential and commercial spaces in Ranchi, Jharkhand.",
   url: "https://sevenpalm.in",
-  telephone: "+917061130724",
+  telephone: "+917631111171",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "New Pipra, Bandi Oraon Chowk, Chetan Toli Rd, near Ayurvedic Jain Store, Harmu",
+    streetAddress: "Digambar Jain Bhawan, Harmu Road Near, Dwarka Path",
     addressLocality: "Ranchi",
     addressRegion: "Jharkhand",
-    postalCode: "834002",
+    postalCode: "834001",
     addressCountry: "IN",
   },
   geo: {

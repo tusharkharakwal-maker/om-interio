@@ -27,7 +27,7 @@ export function WhyChooseUs() {
     <section className="bg-sand py-20 md:py-28" aria-label="Why choose us">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <SectionHeading
-          title="Why Choose Shree Om"
+          title="Why Choose Designco interior"
           subtitle="We hold ourselves to the highest standards — here's what sets us apart."
         />
 

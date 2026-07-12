@@ -1,17 +1,17 @@
 /* ── Business Info ─────────────────────────────────────────── */
 
 export const BUSINESS = {
-  name: "SHREE OM DESIGN AND CONSTRUCTION",
+  name: "Designco interior",
   tagline: "Designing Interiors That Feel Like Home",
-  phone: "+91 70611 30724",
-  phoneRaw: "+917061130724",
-  telLink: "tel:+917061130724",
-  whatsappLink: "https://wa.me/917061130724",
+  phone: "+91 76311 11171",
+  phoneRaw: "+917631111171",
+  telLink: "tel:+917631111171",
+  whatsappLink: "https://wa.me/917631111171",
   address:
-    "New Pipra, Bandi Oraon Chowk, Chetan Toli Rd, near Ayurvedic Jain Store, Harmu, Ranchi, Jharkhand 834002",
-  category: "Interior Design",
+    "Digambar Jain Bhawan, Harmu Road Near, Dwarka Path, Ranchi, Jharkhand 834001",
+  category: "interior design",
   mapQuery:
-    "New+Pipra,+Bandi+Oraon+Chowk,+Chetan+Toli+Rd,+near+Ayurvedic+Jain+Store,+Harmu,+Ranchi,+Jharkhand+834002",
+    "Digambar+Jain+Bhawan,+Harmu+Road+Near,+Dwarka+Path,+Ranchi,+Jharkhand+834001",
   hours: "Mon – Sat: 10 AM – 7 PM | Sun: By Appointment",
 } as const;
 
@@ -33,7 +33,7 @@ export const SERVICES = [
     slug: "appliance-selection",
     icon: "Refrigerator" as const,
     image: {
-      src: "/kitchen-photo.jpg",
+      src: "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&q=80",
       alt: "Modern kitchen appliances integrated seamlessly into cabinetry",
     },
     shortDesc:
@@ -59,7 +59,7 @@ export const SERVICES = [
     slug: "bedroom-design",
     icon: "Bed" as const,
     image: {
-      src: "/bedroom-photo.jpg",
+      src: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=800&q=80",
       alt: "Minimalist bedroom with neutral palette",
     },
     shortDesc:
@@ -72,7 +72,7 @@ export const SERVICES = [
     slug: "cabinetry-hardware",
     icon: "DoorOpen" as const,
     image: {
-      src: "/kitchen-photo.jpg",
+      src: "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&q=80",
       alt: "Designer kitchen with custom cabinetry",
     },
     shortDesc:
@@ -165,7 +165,7 @@ export const TESTIMONIALS = [
   {
     name: "Priya Sharma",
     quote:
-      "Shree Om Design and Construction transformed our flat in Ranchi into something out of a magazine. The attention to detail was extraordinary — every corner feels thoughtful and warm.",
+      "Designco interior transformed our flat in Ranchi into something out of a magazine. The attention to detail was extraordinary — every corner feels thoughtful and warm.",
     rating: 5,
   },
   {
@@ -239,7 +239,7 @@ export const PORTFOLIO_IMAGES = [
     category: "Living Room",
   },
   {
-    src: "/bedroom-photo.jpg",
+    src: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=800&q=80",
     alt: "Minimalist bedroom with neutral palette",
     category: "Bedroom",
   },
@@ -249,7 +249,7 @@ export const PORTFOLIO_IMAGES = [
     category: "Bathroom",
   },
   {
-    src: "/kitchen-photo.jpg",
+    src: "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&q=80",
     alt: "Designer kitchen with custom cabinetry",
     category: "Kitchen",
   },
@@ -289,7 +289,7 @@ export const HERO_IMAGE =
 // TODO: replace with real team/company photos
 export const ABOUT_IMAGES = {
   main: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
-  team: "/team-photo.jpg",
+  team: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=80",
   workspace:
     "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
 } as const;

@@ -83,7 +83,7 @@ export function AboutClient() {
                 {/* TODO: replace with real team photo */}
                 <Image
                   src={ABOUT_IMAGES.team}
-                  alt="The SHREE OM DESIGN AND CONSTRUCTION team collaborating on a design project"
+                  alt="The Designco interior team collaborating on a design project"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -110,7 +110,7 @@ export function AboutClient() {
                   homeowners and businesses across Jharkhand.
                 </p>
                 <p>
-                  Our name, Shree Om, reflects our commitment to bringing harmony,
+                  Our name, Designco interior, reflects our commitment to bringing harmony,
                   balance, and positive energy into the spaces we build and design.
                   We aim to make every interior feel like an arrival —
                   a place where you truly belong.
@@ -173,7 +173,7 @@ export function AboutClient() {
             {/* TODO: replace with real workspace photo */}
             <Image
               src={ABOUT_IMAGES.workspace}
-              alt="SHREE OM DESIGN AND CONSTRUCTION design studio workspace"
+              alt="Designco interior design studio workspace"
               fill
               className="object-cover"
               sizes="100vw"

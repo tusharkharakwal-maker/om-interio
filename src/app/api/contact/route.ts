@@ -27,8 +27,8 @@ export async function POST(request: NextRequest) {
     //   import { Resend } from 'resend';
     //   const resend = new Resend(process.env.RESEND_API_KEY);
     //   await resend.emails.send({
-    //     from: 'SHREE OM DESIGN AND CONSTRUCTION <noreply@shreeomdesign.in>',
-    //     to: ['hello@shreeomdesign.in'],
+    //     from: 'Designco interior <noreply@abc.com>',
+    //     to: ['abc@gmail.com'],
     //     subject: `New enquiry from ${data.name}`,
     //     html: `<p>Name: ${data.name}</p>
     //            <p>Phone: ${data.phone}</p>

@@ -61,7 +61,7 @@ export function Navbar() {
                 scrolled ? "text-espresso" : "text-white"
               }`}
             >
-              Shree Om<span className="text-brass"> Design</span>
+              Designco<span className="text-brass"> interior</span>
             </span>
           </Link>
 
